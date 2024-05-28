@@ -1,0 +1,50 @@
+/*consideraciones para todo el sitio*/
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*header*/
+.headertest{
+    height: 20em;
+    background-image: url(../img/backgrounds/sunset_over_ipanema_beach_buena_vista_images.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.headertest h1{
+    font-size: 2.8em;
+    margin: 10px;
+    font-weight: 400;
+}
+
+.box{
+    background-color: rgba(0,0,0,.6);
+    color: hsl(0, 2%, 79%);
+    padding: 8px;
+  }
+
+/*main*/
+
+.padrediv {
+    width: 80%;
+    margin: auto;
+}
+
+.padrediv td {
+width: 50%;
+padding: 2em;
+}
+.padrediv img {
+height: 100px;
+width: 100%;
+border: solid 1px #ddd;
+}
+
+
+/*footer*/
+footer{
+    text-align: center;
+    background-color: blanchedalmond;
+    padding: 5px;
+}
